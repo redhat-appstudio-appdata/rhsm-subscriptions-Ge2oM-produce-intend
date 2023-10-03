@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhsm-subscriptions
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/rhsm-subscriptions@sha256:ad1285c1502acd7f422319bf27a26c7a6094e2efdd394c08bf39a399517310f3
+      - image: quay.io/redhat-user-workloads/rh-subs-watch-tenant/rhsm-subscriptions/rhsm-subscriptions@sha256:08b4cc322f2ae84e0f4a67901ebdb0aa1f265e65bb6970f45d9e906d0a37ca91
         imagePullPolicy: Always
         name: container-image
         ports:
